@@ -1,7 +1,7 @@
 #include <FastLED.h>
 #define DATA_PIN    3 
 #define DATA_PIN1   6   //hole 1
-#define DATA_PIN2   9   //hole 2 
+#define DATA_PIN2   9   //hole 2
 #define DATA_PIN3   10  //hole 3     
 #define COLOR_ORDER GRB       
 #define NUM_LEDS   16              //The number of LEDs in the strip for count
@@ -9,7 +9,7 @@
 #define NUM2_LEDS  20 
 #define NUM3_LEDS  20 
 #define LED_TYPE    WS2812B         
-#define BRIGHTNESS          50     
+#define BRIGHTNESS          50    
 int LEDbrightness;
 int redSensor = 2;             
 int greenSensor = 4;
